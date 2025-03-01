@@ -23,6 +23,7 @@ function ShopItemFunc({ item }) {
   );
 }
 
+// Проверка типов пропсов
 ShopItemFunc.propTypes = {
   item: PropTypes.shape({
     brand: PropTypes.string.isRequired,
